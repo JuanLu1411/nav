@@ -1,6 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component 
- metadata: 
+metadata: 
   name: ejemplo-sitio 
 spec:
  type: website 
