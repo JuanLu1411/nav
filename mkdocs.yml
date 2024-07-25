@@ -1,0 +1,58 @@
+# Project information
+site_name: 'MAPFRE - Metodologia'
+site_description: 'Site de Metodologia MAPFRE'
+site_dir: 'site_arqint_glb_es'
+
+plugins:
+  - techdocs-core
+
+# Site
+nav:
+    - Principal: './index.md'
+     
+    - Capa Coordinacion:
+        - Idea: 
+          - Proceso: './idea/idea.proyecto_es.md'
+          - Registro: './idea/idea.registro_es.md'
+          - Definición Éxito: './idea/idea.businessCase_es.md'
+          - Aceptación/Rechazo: './idea/idea.aprobacionRechazo_es.md'
+        - Proyecto:                            
+          - Proceso: './proyecto/proyecto_es.md'
+          - Movilización/Establecimiento: './proyecto/proyecto.Registro_es.md'
+          - Movilización/Planificacion: './proyecto/proyecto.Planificacion_es.md'
+          - Ejecución/Arranque: './proyecto/proyecto.KickOff_es.md'
+          - Ejecución/Seguimiento: './proyecto/proyecto.Seguimiento_es.md'
+          - Ejecución/Gestión de los Cambios: './proyecto/proyecto.GestionCambio_es.md'
+          - Finalización/Cierre: './proyecto/proyecto.Cierre_es.md'
+        - -------------------: ''
+        - Roles: './Recursos/roles_es.md'
+        - Material de apoyo: 
+          - Plantillas: './entregables/entregables_es.md'
+          - Conceptos: './Recursos/conceptos_es.md'
+          - Normativas: './Recursos/normativas_es.md'
+          - Técnicas: './tecnicas/tecnicas_es.md'
+        - Glosario: './Recursos/glosario_es.md'
+
+
+ # Extensions
+markdown_extensions:
+  - meta
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
