@@ -1,3 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component 
+ metadata: 
+  name: ejemplo-sitio 
+spec:
+ type: website 
+ lifecycle: production
+ owner: equipo-tecnico
+
+
 # Project information
 site_name: 'MAPFRE - Metodologia'
 site_description: 'Site de Metodologia MAPFRE'
