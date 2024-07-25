@@ -1,11 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component 
-metadata: 
-  name: ejemplo-sitio 
-spec:
- type: website 
- lifecycle: production
- owner: equipo-tecnico
+kind: Component
+metadata:
+  name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
 
 
 # Project information
