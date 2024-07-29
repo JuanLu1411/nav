@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: prueva-bk  # Aquí he cambiado "Prueva BK" a "prueva-bk"
+  name: prueva-bk
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
