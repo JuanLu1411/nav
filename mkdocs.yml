@@ -1,5 +1,5 @@
-site_name: BK Prueva
-site_description: Prueva BK 
+site_name: prueva-bk
+site_description: prueva-bk
 plugins:
   - techdocs-core
 nav:
