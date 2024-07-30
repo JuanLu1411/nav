@@ -3,4 +3,4 @@ site_description: Esta es una prueba de descpicion prueva-bk
 plugins:
   - techdocs-core
 nav:
-  - docs_dir: src/components/header.md
+  - docs_dir: ./src/components/header.md
