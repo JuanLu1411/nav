@@ -3,4 +3,4 @@ site_description: prueva-bk
 plugins:
   - techdocs-core
 nav:
-  - Getting Started: src/components/header.js
+  - Getting Started: src/components/header.md
