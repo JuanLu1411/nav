@@ -1,4 +1,5 @@
 import './App.css';
+import "./i18n" ;
 import Header from './components/header';
 
 function App() {
