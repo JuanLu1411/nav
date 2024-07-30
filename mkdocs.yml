@@ -4,4 +4,4 @@ plugins:
   - techdocs-core
 nav:
   - Overview:
-      - What is Backstage?: '/src/components/header.md'
+      - What is Backstage?: 'src/components/header.md'
