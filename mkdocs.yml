@@ -4,4 +4,4 @@ docs_dir: docs
 plugins:
   - techdocs-core
 nav:
-  - Getting Started: src/components/header.md
+  - docs_dir: src/components/header.md
