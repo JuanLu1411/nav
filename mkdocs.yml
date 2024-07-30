@@ -4,4 +4,3 @@ plugins:
   - techdocs-core
 nav:
   - Getting Started: src/components/header.js
-  - docs_dir: src/components/header.js
