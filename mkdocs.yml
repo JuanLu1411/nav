@@ -1,6 +1,5 @@
 site_name: prueva-bk
 site_description: Esta es una prueba de descpicion prueva-bk
-docs_dir: docs
 plugins:
   - techdocs-core
 nav:
