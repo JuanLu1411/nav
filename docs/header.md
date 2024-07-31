@@ -1,4 +1,4 @@
 # Header Component
 
 <div id="root"></div>
-<script src="src/App.js"></script>
+<script src="src/components/header.js"></script>
