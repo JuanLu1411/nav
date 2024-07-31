@@ -4,10 +4,10 @@ plugins:
   - techdocs-core
 nav:
   - Header Component:
-      - Header: 'header.md'
+      - Header: 'header-js.md'
   - Index:
       - index: 'index.md'
 extra_javascript:
-  - 'assets/react-app/static/js/main.js'
+  - 'assets/react-app/static/js/main.1e03b867.js'
 extra_css:
-  - 'assets/react-app/static/css/main.css'
+  - 'assets/react-app/static/css/main.f855e6bc.css'
