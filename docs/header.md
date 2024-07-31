@@ -1,4 +1,4 @@
 # Header Component
 
 <div id="root"></div>
-<script src="./docs/assets/react-app/build/static/js/main.1e03b867.js"></script>
+<script src="./src/App.js"></script>
