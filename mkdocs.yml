@@ -4,7 +4,7 @@ plugins:
   - techdocs-core
 nav:
   - Header Component: 
-      - Header: './header.md'
+      - Header: 'header.md'
 
   - Index:
-      - index: './index.md'
+      - index: 'index.md'
