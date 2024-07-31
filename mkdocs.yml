@@ -3,9 +3,5 @@ site_description: Esta es una prueba de descpicion prueva-bk
 plugins:
   - techdocs-core
 nav:
-
-  - Index:
-      - index: 'index.md'
-  
   - Header Component: 
       - Header: 'docs/src/components/header.md'
