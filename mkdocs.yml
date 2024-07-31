@@ -8,4 +8,4 @@ nav:
       - index: '/index.md'
   
   - Header Component: 
-      - Header: docs/src/components/header.md
+      - Header: 'docs/src/components/header.md'
