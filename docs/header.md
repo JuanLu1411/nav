@@ -1,3 +1,10 @@
+# Documentación del Componente Header
+
+Este componente muestra un saludo y permite cambiar entre español e inglés.
+
+## Código del Componente
+
+```jsx
 import React from "react";
 import { useTranslation } from "react-i18next";
 
