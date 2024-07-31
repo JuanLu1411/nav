@@ -8,4 +8,4 @@ nav:
       - index: 'docs/index.md'
   
   - Header Component: 
-      - Header: 'src/components/header.md'
+      - Header: 'docs/src/components/header.js'
