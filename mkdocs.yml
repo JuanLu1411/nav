@@ -6,6 +6,3 @@ nav:
 
   - Index:
       - index: 'index.md'
-
-  - Overview:
-      - What is Backstage?: 'src/components/header.md'
