@@ -5,4 +5,4 @@ plugins:
 nav:
 
   - Index:
-      - index: 'index.md'
+      - index: '/index.md'
