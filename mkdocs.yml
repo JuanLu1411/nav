@@ -5,7 +5,7 @@ plugins:
 nav:
 
   - Index:
-      - index: '/index.md'
+      - index: 'index.md'
   
   - Header Component: 
       - Header: 'docs/src/components/header.md'
