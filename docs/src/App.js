@@ -1,6 +1,6 @@
 import './App.css';
 import "./i18n" ;
-import Header from './components/header';
+import Header from '../header';
 
 function App() {
   return (
