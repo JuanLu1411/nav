@@ -3,7 +3,6 @@ repo_url: https://github.com/JuanLu1411/nav
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
-  - Español: es/index.md
 extra:
   translations:
     - url: /es/
