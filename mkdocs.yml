@@ -1,6 +1,7 @@
 site_name: Mi Proyecto
 nav:
-  - Home: en/index.md
+  - Home: index.md
+  - Español: en/index.md
   # Añade aquí más enlaces según sea necesario
 extra:
   translations:
