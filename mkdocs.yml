@@ -5,7 +5,7 @@ plugins:
   - techdocs-core
 nav:
   - Home: index.md
-  extra:
-    translations:
-      - url: /es/
-       label: Español
+extra:
+  translations:
+    - url: /es/
+      label: Español
