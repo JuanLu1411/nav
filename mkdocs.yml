@@ -3,9 +3,13 @@ repo_url: https://github.com/JuanLu1411/nav
 edit_uri: edit/main/docs/
 plugins:
   - techdocs-core
+
 nav:
   - Home: index.md
+
 extra:
   translations:
     - url: /es/
       label: Español
+    - url: /
+      label: English
