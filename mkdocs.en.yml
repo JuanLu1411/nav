@@ -1,0 +1,8 @@
+site_name: Mi Proyecto
+nav:
+  - Home: index.md
+  # Añade aquí más enlaces según sea necesario
+extra:
+  translations:
+    - url: /es/
+      label: Español
