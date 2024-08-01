@@ -1,16 +1,22 @@
-# Welcome to My I18n Markdown App Documentation
+# Running the App
 
 <button onclick="showLanguage('en')">English</button>
 <button onclick="showLanguage('es')">Español</button>
 
 <div id="content-en">
-    <h2>Overview</h2>
-    <p>My I18n Markdown App is a React application that integrates i18next for internationalization and Markdown for content rendering.</p>
+    <p>To run the application, use the following command:</p>
+    <pre>
+    npm start
+    </pre>
+    <p>This will start the application in development mode. Open <a href="http://localhost:3000">http://localhost:3000</a> to view it in the browser.</p>
 </div>
 
 <div id="content-es" style="display:none;">
-    <h2>Visión General</h2>
-    <p>My I18n Markdown App es una aplicación React que integra i18next para internacionalización y Markdown para la representación de contenido.</p>
+    <p>Para ejecutar la aplicación, utiliza el siguiente comando:</p>
+    <pre>
+    npm start
+    </pre>
+    <p>Esto iniciará la aplicación en modo de desarrollo. Abre <a href="http://localhost:3000">http://localhost:3000</a> para verla en el navegador.</p>
 </div>
 
 <script>

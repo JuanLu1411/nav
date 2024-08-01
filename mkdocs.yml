@@ -3,11 +3,15 @@ site_description: Esta es una prueba de descpicion prueva-bk
 plugins:
   - techdocs-core
 nav:
-  - Header Component:
-      - Header: 'header-js.md'
-  - Index:
-      - index: 'index.md'
-  - extra_javascript:
-      -js: 'assets/react-app/static/js/main.1e03b867.js'
-extra_css:
-  - 'assets/react-app/static/css/main.f855e6bc.css'
+  - Home: index.md
+  - Setup:
+    - Project Structure: setup/project-structure.md
+    - Installation: setup/installation.md
+  - Usage:
+    - Running the App: usage/running-the-app.md
+    - Changing Language: usage/changing-language.md
+  - Components:
+    - App Component: components/app.md
+    - MarkdownContent Component: components/markdown-content.md
+  - Configuration:
+    - i18next Configuration: configuration/i18next.md
