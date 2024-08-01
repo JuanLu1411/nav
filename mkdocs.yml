@@ -5,7 +5,9 @@ plugins:
 nav:
   - Home: index.md
   - Setup:
-    - Project Structure: setup/project-structure.md
+    - Project Structure: 
+      - Español: setup/project-structure.md
+      - Ingles: setup/project-structure.md
     - Installation: setup/installation.md
   - Usage:
     - Running the App: usage/running-the-app.md
