@@ -11,7 +11,7 @@ theme:
 
 nav:
   - Casa: es/index.md
-  - Caca Español: es/caca/caca.md
+  - contenido Español: es/contenido/
 
 extra:
   alternate:
