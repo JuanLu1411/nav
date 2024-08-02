@@ -1,15 +1,23 @@
 site_name: Mi Proyecto
 repo_url: https://github.com/JuanLu1411/nav
-edit_uri: edit/main/docs/{language}/
+edit_uri: edit/main/docs/
 
-plugins:
-  - i18n:
-      docs_structure: suffix
-      languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
-        - locale: es
-          name: Español
-          build: true
+theme:
+  name: material
+  language: es  # El idioma predeterminado
+  features:
+    - search
+    - navigation.expand
+    - toc.integrate
+
+nav:
+  - Casa: es/index.md
+  - Caca Español: es/caca/caca.md
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+
+
