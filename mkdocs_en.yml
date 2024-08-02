@@ -3,10 +3,14 @@ repo_url: https://github.com/JuanLu1411/nav
 edit_uri: edit/main/docs/en/
 plugins:
   - techdocs-core
+  - search
+
+theme:
+  name: material
+  language: en
 
 nav:
   - Home: en/index.md
-
   - Caca English: en/caca/caca.md
 
 extra:
@@ -14,3 +18,6 @@ extra:
     - url: /es/
       label: Español
       language: es
+
+extra_css:
+  - styles/extra.css
