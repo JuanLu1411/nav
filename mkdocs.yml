@@ -12,5 +12,4 @@ extra:
     - url: /es/
       label: Español
     - url: /en/
-      site_name: My Proyect
       label: English
