@@ -6,8 +6,3 @@ plugins:
 
 nav:
   - Home: en/index.md
-
-extra:
-  translations:
-    - url: /es/
-      label: Español

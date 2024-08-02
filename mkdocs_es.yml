@@ -1,13 +1,8 @@
 site_name: Mi Proyecto
 repo_url: https://github.com/JuanLu1411/nav
-edit_uri: edit/main/docs/es/
+edit_uri: edit/main/docs/
 plugins:
   - techdocs-core
 
 nav:
   - Casa: es/index.md
-
-extra:
-  translations:
-    - url: /en/
-      label: English
