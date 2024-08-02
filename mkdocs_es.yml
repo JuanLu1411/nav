@@ -3,6 +3,7 @@ repo_url: https://github.com/JuanLu1411/nav
 edit_uri: edit/main/docs/es/
 plugins:
   - techdocs-core
+  - search
 
 theme:
   name: material
@@ -10,6 +11,7 @@ theme:
 
 nav:
   - Casa: es/index.md
+
   - Caca Español: es/caca/caca.md
 
 extra:
