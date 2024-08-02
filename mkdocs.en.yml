@@ -18,6 +18,3 @@ extra:
     - name: Español
       url: /es/
       language: es
-
-extra_css:
-  - styles/extra.css
