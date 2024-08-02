@@ -6,3 +6,5 @@ plugins:
 
 nav:
   - Casa: es/index.md
+  
+  - Caca Español: es/caca/caca.md
