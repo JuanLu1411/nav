@@ -8,3 +8,9 @@ nav:
   - Casa: es/index.md
   
   - Caca Español: es/caca/caca.md
+
+extra:
+  translations:
+    - url: /en/
+      label: English
+      language: en
