@@ -11,14 +11,8 @@ theme:
 
 nav:
   - Home: en/index.md
-  
-  - Caca English: en/caca/caca.md
 
-extra:
-  translations:
-    - url: /es/
-      label: Español
-      language: es
+  - Caca English: en/caca/caca.md
 
 extra_css:
   - styles/extra.css
