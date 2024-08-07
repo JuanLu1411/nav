@@ -10,6 +10,7 @@ theme:
   language: en
 
 nav:
+  - Index : index.md
   - Home: en/index.md
   - contenido English: en/contenido/
 
