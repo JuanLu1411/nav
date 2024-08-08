@@ -54,6 +54,6 @@ Puedes descargar el documento PDF haciendo clic en el siguiente botón:
     </button>
   </p>
   
-  <p id="idioma-actual" style="display: none;">es</p>
+  <p id="idioma-actual" style="display: none;"></p>
 </body>
 </html>
