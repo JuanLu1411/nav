@@ -4,7 +4,7 @@ Puedes descargar el documento PDF haciendo clic en el siguiente botón:
 
 <p>
   <a href="./pdf/index.pdf" download>
-    <button style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    <button id="boton" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
       Descargar PDF
     </button>
   </a>
@@ -20,30 +20,39 @@ Puedes descargar el documento PDF haciendo clic en el siguiente botón:
 
 <script>
   function cambiarIdioma() {
-    const idiomaActual = document.getElementById('idioma-actual').innerText;
-    if (idiomaActual === 'es') {
-      document.getElementById('titulo').innerText = 'Example Document';
-      document.getElementById('descripcion').innerText = 'You can download the PDF document by clicking the button below:';
-      document.getElementById('boton').innerText = 'Download PDF';
-      document.getElementById('idioma-actual').innerText = 'en';
-      document.getElementById('cambiarIdiomaBoton').innerText = 'Cambiar a Español';
-    } else {
-      document.getElementById('titulo').innerText = 'Documento de ejemplo';
-      document.getElementById('descripcion').innerText = 'Puedes descargar el documento PDF haciendo clic en el siguiente botón:';
-      document.getElementById('boton').innerText = 'Descargar PDF';
-      document.getElementById('idioma-actual').innerText = 'es';
-      document.getElementById('cambiarIdiomaBoton').innerText = 'Change to English';
+    const elementos = {
+      titulo: document.getElementById('titulo'),
+      descripcion: document.getElementById('descripcion'),
+      boton: document.getElementById('boton'),
+      cambiarIdiomaBoton: document.getElementById('cambiarIdiomaBoton'),
+      idiomaActual: document.getElementById('idioma-actual'),
+    };
+
+    const textos = {
+      es: {
+        titulo: 'Documento de ejemplo',
+        descripcion: 'Puedes descargar el documento PDF haciendo clic en el siguiente botón:',
+        boton: 'Descargar PDF',
+        cambiarIdiomaBoton: 'Change to English',
+        idiomaActual: 'es',
+      },
+      en: {
+        titulo: 'Example Document',
+        descripcion: 'You can download the PDF document by clicking the button below:',
+        boton: 'Download PDF',
+        cambiarIdiomaBoton: 'Cambiar a Español',
+        idiomaActual: 'en',
+      }
+    };
+
+    const nuevoIdioma = elementos.idiomaActual.innerText === 'es' ? 'en' : 'es';
+
+    // Cambia el texto de los elementos según el idioma seleccionado
+    for (const [clave, valor] of Object.entries(textos[nuevoIdioma])) {
+      elementos[clave].innerText = valor;
     }
   }
 </script>
 
 <h1 id="titulo">Documento de ejemplo</h1>
 <p id="descripcion">Puedes descargar el documento PDF haciendo clic en el siguiente botón:</p>
-
-<p>
-  <a href="./pdf/index.pdf" download>
-    <button id="boton" style="padding: 10px 15px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      Descargar PDF
-    </button>
-  </a>
-</p>
