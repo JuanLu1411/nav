@@ -19,7 +19,7 @@ Puedes descargar el documento PDF haciendo clic en el siguiente botón:
 <p id="idioma-actual" style="display: none;">es</p>
 
 <!-- Incluir el script en un archivo externo -->
-<script src="/scripts/idioma.js"></script>
+<script src="../scripts/idioma.js"></script>
 
 <h1 id="titulo">Documento de ejemplo</h1>
 <p id="descripcion">Puedes descargar el documento PDF haciendo clic en el siguiente botón:</p>
